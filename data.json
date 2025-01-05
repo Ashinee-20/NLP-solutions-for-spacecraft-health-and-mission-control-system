@@ -518,5 +518,1085 @@
             "ACTION": ["O", "O", "B-ACTION", "I-ACTION", "O", "B-FEATURE", "O", "O", "O", "O", "O", "O", "O", "O", "O"],
             "TABLE": ["O", "O", "O", "O", "O", "O", "O", "O", "B-TABLE", "I-TABLE", "O", "O", "O", "O", "O"]
         }
-    }
+    },
+    {
+        "id": 66,
+        "tokens": ["Create", "a", "line", "plot", "of", "temperature", "in", "mission", "3", "vs", "pressure", "in", "mission", "1", "over", "time"],
+        "BIO_tags": {
+          "ACTION": ["B-ACTION", "O", "B-ACTION", "I-ACTION", "O", "B-FEATURE", "O", "B-FEATURE", "I-FEATURE", "O", "B-FEATURE", "O", "B-FEATURE", "I-FEATURE", "O", "O"],
+          "TABLE": ["O", "O", "O", "O", "O", "B-TABLE", "O", "B-TABLE", "I-TABLE", "O", "B-TABLE", "O", "B-TABLE", "I-TABLE", "O", "O"]
+        }
+      },
+      {
+        "id": 67,
+        "tokens": ["Generate", "a", "scatter", "plot", "for", "acceleration", "in", "mission", "2", "against", "longitude", "in", "mission", "1"],
+        "BIO_tags": {
+          "ACTION": ["B-ACTION", "O", "B-ACTION", "I-ACTION", "O", "B-FEATURE", "O", "B-FEATURE", "I-FEATURE", "O", "B-FEATURE", "O", "B-FEATURE", "I-FEATURE"],
+          "TABLE": ["O", "O", "O", "O", "O", "B-TABLE", "O", "B-TABLE", "I-TABLE", "O", "B-TABLE", "O", "B-TABLE", "I-TABLE"]
+        }
+      },
+      {
+        "id": 68,
+        "tokens": ["Plot", "a", "graph", "depicting", "battery", "levels", "in", "mission", "3", "over", "time"],
+        "BIO_tags": {
+          "ACTION": ["B-ACTION", "O", "B-ACTION", "I-ACTION", "B-FEATURE", "I-FEATURE", "O", "B-FEATURE", "I-FEATURE", "O", "O"],
+          "TABLE": ["O", "O", "O", "O", "B-TABLE", "I-TABLE", "O", "B-TABLE", "I-TABLE", "O", "O"]
+        }
+      },
+      {
+        "id": 69,
+        "tokens": ["Create", "a", "linechart", "comparing", "fuel", "levels", "in", "mission", "2", "with", "GPS", "latitude", "in", "mission", "1"],
+        "BIO_tags": {
+          "ACTION": ["B-ACTION", "O", "B-ACTION", "I-ACTION", "B-FEATURE", "I-FEATURE", "O", "B-FEATURE", "I-FEATURE", "O", "B-FEATURE", "I-FEATURE", "O", "B-FEATURE", "I-FEATURE"],
+          "TABLE": ["O", "O", "O", "O", "B-TABLE", "I-TABLE", "O", "B-TABLE", "I-TABLE", "O", "B-TABLE", "I-TABLE", "O", "B-TABLE", "I-TABLE"]
+        }
+      },
+      {
+        "id": 70,
+        "tokens": ["Make", "a", "graph", "for", "temperature", "in", "mission", "1", "with", "oxygen", "levels", "in", "mission", "3"],
+        "BIO_tags": {
+          "ACTION": ["B-ACTION", "O", "B-ACTION", "O", "B-FEATURE", "O", "B-FEATURE", "I-FEATURE", "O", "B-FEATURE", "I-FEATURE", "O", "B-FEATURE", "I-FEATURE"],
+          "TABLE": ["O", "O", "O", "O", "B-TABLE", "O", "B-TABLE", "I-TABLE", "O", "B-TABLE", "I-TABLE", "O", "B-TABLE", "I-TABLE"]
+        }
+      },
+      {
+        "id": 71,
+        "tokens": ["Plot", "a", "bar", "chart", "depicting", "CO2", "levels", "in", "mission", "2", "for", "the", "last", "6", "months"],
+        "BIO_tags": {
+          "ACTION": ["B-ACTION", "O", "B-ACTION", "I-ACTION", "O", "B-FEATURE", "I-FEATURE", "O", "B-FEATURE", "I-FEATURE", "O", "O", "O", "O", "O", "O"],
+          "TABLE": ["O", "O", "O", "O", "O", "B-TABLE", "I-TABLE", "O", "B-TABLE", "I-TABLE", "O", "O", "O", "O", "O", "O"]
+        }
+      },
+      {
+        "id": 72,
+        "tokens": ["Generate", "a", "plot", "comparing", "longitude", "in", "mission", "3", "and", "temperature", "in", "mission", "2"],
+        "BIO_tags": {
+          "ACTION": ["B-ACTION", "O", "B-ACTION", "O", "B-FEATURE", "O", "B-FEATURE", "I-FEATURE", "O", "B-FEATURE", "O", "B-FEATURE", "I-FEATURE"],
+          "TABLE": ["O", "O", "O", "O", "B-TABLE", "O", "B-TABLE", "I-TABLE", "O", "B-TABLE", "O", "B-TABLE", "I-TABLE"]
+        }
+      },
+      {
+        "id": 73,
+        "tokens": ["Draw", "a", "line", "plot", "showing", "engine", "status", "in", "mission", "1", "over", "the", "last", "10", "days"],
+        "BIO_tags": {
+          "ACTION": ["B-ACTION", "O", "B-ACTION", "I-ACTION", "O", "B-FEATURE", "I-FEATURE", "O", "B-FEATURE", "I-FEATURE", "O", "O", "O", "O", "O"],
+          "TABLE": ["O", "O", "O", "O", "O", "B-TABLE", "I-TABLE", "O", "B-TABLE", "I-TABLE", "O", "O", "O", "O", "O"]
+        }
+      },
+      {
+        "id": 74,
+        "tokens": ["Create", "a", "graph", "for", "acceleration", "in", "mission", "2", "compared", "with", "fuel", "levels", "in", "mission", "1"],
+        "BIO_tags": {
+          "ACTION": ["B-ACTION", "O", "B-ACTION", "O", "B-FEATURE", "O", "B-FEATURE", "I-FEATURE", "O", "B-FEATURE", "I-FEATURE", "O", "B-FEATURE", "I-FEATURE"],
+          "TABLE": ["O", "O", "O", "O", "B-TABLE", "O", "B-TABLE", "I-TABLE", "O", "B-TABLE", "I-TABLE", "O", "B-TABLE", "I-TABLE"]
+        }
+      },
+      {
+        "id": 75,
+        "tokens": ["Plot", "a", "line", "chart", "for", "oxygen", "levels", "in", "mission", "3", "compared", "with", "temperature", "in", "mission", "1"],
+        "BIO_tags": {
+          "ACTION": ["B-ACTION", "O", "B-ACTION", "I-ACTION", "O", "B-FEATURE", "I-FEATURE", "O", "B-FEATURE", "I-FEATURE", "O", "B-FEATURE", "I-FEATURE", "O", "B-FEATURE", "I-FEATURE"],
+          "TABLE": ["O", "O", "O", "O", "O", "B-TABLE", "I-TABLE", "O", "B-TABLE", "I-TABLE", "O", "B-TABLE", "I-TABLE", "O", "B-TABLE", "I-TABLE"]
+        }
+      },
+      {
+        "id": 76,
+        "tokens": ["Generate", "a", "plot", "for", "GPS", "longitude", "in", "mission", "1", "and", "GPS", "latitude", "in", "mission", "2"],
+        "BIO_tags": {
+          "ACTION": ["B-ACTION", "O", "B-ACTION", "O", "B-FEATURE", "I-FEATURE", "O", "B-FEATURE", "I-FEATURE", "O", "B-FEATURE", "I-FEATURE", "O", "B-FEATURE", "I-FEATURE"],
+          "TABLE": ["O", "O", "O", "O", "B-TABLE", "I-TABLE", "O", "B-TABLE", "I-TABLE", "O", "B-TABLE", "I-TABLE", "O", "B-TABLE", "I-TABLE"]
+        }
+      },
+      {
+        "id": 77,
+        "tokens": ["Create", "a", "linechart", "showing", "temperature", "in", "mission", "3", "over", "the", "past", "10", "days"],
+        "BIO_tags": {
+          "ACTION": ["B-ACTION", "O", "B-ACTION", "O", "B-FEATURE", "O", "B-FEATURE", "I-FEATURE", "O", "O", "O", "O", "O"],
+          "TABLE": ["O", "O", "O", "O", "B-TABLE", "O", "B-TABLE", "I-TABLE", "O", "O", "O", "O", "O"]
+        }
+      },
+      {
+        "id": 78,
+        "tokens": ["Plot", "a", "line", "graph", "of", "CO2", "levels", "in", "mission", "1", "and", "mission", "2"],
+        "BIO_tags": {
+          "ACTION": ["B-ACTION", "O", "B-ACTION", "I-ACTION", "O", "B-FEATURE", "I-FEATURE", "O", "B-FEATURE", "I-FEATURE", "O", "B-FEATURE", "I-FEATURE"],
+          "TABLE": ["O", "O", "O", "O", "O", "B-TABLE", "I-TABLE", "O", "B-TABLE", "I-TABLE", "O", "B-TABLE", "I-TABLE"]
+        }
+      },
+      {
+        "id": 79,
+        "tokens": ["Generate", "a", "scatter", "plot", "of", "acceleration", "in", "mission", "3", "vs", "thrust", "in", "mission", "1"],
+        "BIO_tags": {
+          "ACTION": ["B-ACTION", "O", "B-ACTION", "I-ACTION", "O", "B-FEATURE", "O", "B-FEATURE", "I-FEATURE", "O", "B-FEATURE", "O", "B-FEATURE", "I-FEATURE"],
+          "TABLE": ["O", "O", "O", "O", "O", "B-TABLE", "O", "B-TABLE", "I-TABLE", "O", "B-TABLE", "O", "B-TABLE", "I-TABLE"]
+        }
+      },
+      {
+        "id": 80,
+        "tokens": ["Make", "a", "line", "plot", "comparing", "battery", "levels", "in", "mission", "2", "and", "mission", "3"],
+        "BIO_tags": {
+          "ACTION": ["B-ACTION", "O", "B-ACTION", "I-ACTION", "O", "B-FEATURE", "I-FEATURE", "O", "B-FEATURE", "I-FEATURE", "O", "B-FEATURE", "I-FEATURE"],
+          "TABLE": ["O", "O", "O", "O", "O", "B-TABLE", "I-TABLE", "O", "B-TABLE", "I-TABLE", "O", "B-TABLE", "I-TABLE"]
+        }
+      },
+      {
+        "id": 81,
+        "tokens": ["Draw", "a", "graph", "of", "pressure", "in", "mission", "2", "for", "the", "last", "5", "months"],
+        "BIO_tags": {
+          "ACTION": ["B-ACTION", "O", "B-ACTION", "O", "B-FEATURE", "O", "B-FEATURE", "I-FEATURE", "O", "O", "O", "O", "O"],
+          "TABLE": ["O", "O", "O", "O", "B-TABLE", "O", "B-TABLE", "I-TABLE", "O", "O", "O", "O", "O"]
+        }
+      },
+      {
+        "id": 82,
+        "tokens": ["Create", "a", "line", "chart", "for", "GPS", "latitude", "in", "mission", "1", "over", "time"],
+        "BIO_tags": {
+          "ACTION": ["B-ACTION", "O", "B-ACTION", "I-ACTION", "O", "B-FEATURE", "I-FEATURE", "O", "B-FEATURE", "I-FEATURE", "O", "O"],
+          "TABLE": ["O", "O", "O", "O", "O", "B-TABLE", "I-TABLE", "O", "B-TABLE", "I-TABLE", "O", "O"]
+        }
+      },
+      {
+        "id": 83,
+        "tokens": ["Plot", "a", "bar", "chart", "depicting", "power", "usage", "in", "mission", "3", "over", "the", "last", "8", "months"],
+        "BIO_tags": {
+          "ACTION": ["B-ACTION", "O", "B-ACTION", "I-ACTION", "O", "B-FEATURE", "I-FEATURE", "O", "B-FEATURE", "I-FEATURE", "O", "O", "O", "O", "O", "O"],
+          "TABLE": ["O", "O", "O", "O", "O", "B-TABLE", "I-TABLE", "O", "B-TABLE", "I-TABLE", "O", "O", "O", "O", "O", "O"]
+        }
+      },
+      {
+        "id": 84,
+        "tokens": ["Generate", "a", "scatter", "plot", "for", "GPS", "longitude", "in", "mission", "2", "over", "time"],
+        "BIO_tags": {
+          "ACTION": ["B-ACTION", "O", "B-ACTION", "O", "B-FEATURE", "I-FEATURE", "O", "B-FEATURE", "I-FEATURE", "O", "O", "O"],
+          "TABLE": ["O", "O", "O", "O", "B-TABLE", "I-TABLE", "O", "B-TABLE", "I-TABLE", "O", "O", "O"]
+        }
+      },
+      {
+        "id": 85,
+        "tokens": ["Make", "a", "line", "graph", "comparing", "CO2", "levels", "in", "mission", "1", "and", "mission", "3"],
+        "BIO_tags": {
+          "ACTION": ["B-ACTION", "O", "B-ACTION", "I-ACTION", "O", "B-FEATURE", "I-FEATURE", "O", "B-FEATURE", "I-FEATURE", "O", "B-FEATURE", "I-FEATURE"],
+          "TABLE": ["O", "O", "O", "O", "O", "B-TABLE", "I-TABLE", "O", "B-TABLE", "I-TABLE", "O", "B-TABLE", "I-TABLE"]
+        }
+      },
+      {
+        "id": 86,
+        "tokens": ["Create", "a", "line", "plot", "of", "temperature", "in", "mission", "1", "over", "the", "last", "6", "months"],
+        "BIO_tags": {
+          "ACTION": ["B-ACTION", "O", "B-ACTION", "I-ACTION", "O", "B-FEATURE", "O", "B-FEATURE", "I-FEATURE", "O", "O", "O", "O", "O"],
+          "TABLE": ["O", "O", "O", "O", "O", "B-TABLE", "O", "B-TABLE", "I-TABLE", "O", "O", "O", "O", "O"]
+        }
+      },
+      {
+        "id": 87,
+        "tokens": ["Plot", "a", "graph", "showing", "GPS", "longitude", "in", "mission", "2", "versus", "acceleration", "in", "mission", "3"],
+        "BIO_tags": {
+          "ACTION": ["B-ACTION", "O", "B-ACTION", "O", "B-FEATURE", "I-FEATURE", "O", "B-FEATURE", "I-FEATURE", "O", "B-FEATURE", "O", "B-FEATURE", "I-FEATURE"],
+          "TABLE": ["O", "O", "O", "O", "B-TABLE", "I-TABLE", "O", "B-TABLE", "I-TABLE", "O", "B-TABLE", "O", "B-TABLE", "I-TABLE"]
+        }
+      },
+      {
+        "id": 88,
+        "tokens": ["Generate", "a", "plot", "comparing", "fuel", "levels", "in", "mission", "2", "and", "CO2", "levels", "in", "mission", "1"],
+        "BIO_tags": {
+          "ACTION": ["B-ACTION", "O", "B-ACTION", "I-ACTION", "O", "B-FEATURE", "I-FEATURE", "O", "B-FEATURE", "I-FEATURE", "O", "B-FEATURE", "I-FEATURE", "O", "B-FEATURE", "I-FEATURE"],
+          "TABLE": ["O", "O", "O", "O", "B-TABLE", "I-TABLE", "O", "B-TABLE", "I-TABLE", "O", "B-TABLE", "I-TABLE", "O", "B-TABLE", "I-TABLE"]
+        }
+      },
+      {
+        "id": 89,
+        "tokens": ["Make", "a", "scatter", "plot", "of", "engine", "status", "in", "mission", "1", "vs", "battery", "levels", "in", "mission", "3"],
+        "BIO_tags": {
+          "ACTION": ["B-ACTION", "O", "B-ACTION", "I-ACTION", "O", "B-FEATURE", "I-FEATURE", "O", "B-FEATURE", "I-FEATURE", "O", "B-FEATURE", "I-FEATURE", "O", "B-FEATURE", "I-FEATURE"],
+          "TABLE": ["O", "O", "O", "O", "O", "B-TABLE", "I-TABLE", "O", "B-TABLE", "I-TABLE", "O", "B-TABLE", "I-TABLE", "O", "B-TABLE", "I-TABLE"]
+        }
+      },
+      {
+        "id": 90,
+        "tokens": ["Draw", "a", "graph", "showing", "thrust", "in", "mission", "2", "over", "the", "last", "5", "months"],
+        "BIO_tags": {
+          "ACTION": ["B-ACTION", "O", "B-ACTION", "O", "B-FEATURE", "O", "B-FEATURE", "I-FEATURE", "O", "O", "O", "O", "O"],
+          "TABLE": ["O", "O", "O", "O", "B-TABLE", "O", "B-TABLE", "I-TABLE", "O", "O", "O", "O", "O"]
+        }
+      },
+      {
+        "id": 91,
+        "tokens": ["Plot", "a", "line", "chart", "comparing", "oxygen", "levels", "in", "mission", "1", "and", "temperature", "in", "mission", "2"],
+        "BIO_tags": {
+          "ACTION": ["B-ACTION", "O", "B-ACTION", "O", "B-FEATURE", "O", "B-FEATURE", "I-FEATURE", "O", "B-FEATURE", "I-FEATURE", "O", "B-FEATURE", "I-FEATURE"],
+          "TABLE": ["O", "O", "O", "O", "O", "B-TABLE", "I-TABLE", "O", "B-TABLE", "I-TABLE", "O", "B-TABLE", "I-TABLE", "O", "B-TABLE", "I-TABLE"]
+        }
+      },
+      {
+        "id": 92,
+        "tokens": ["Generate", "a", "scatter", "plot", "of", "GPS", "latitude", "in", "mission", "1", "versus", "GPS", "longitude", "in", "mission", "3"],
+        "BIO_tags": {
+          "ACTION": ["B-ACTION", "O", "B-ACTION", "O", "B-FEATURE", "I-FEATURE", "O", "B-FEATURE", "I-FEATURE", "O", "B-FEATURE", "I-FEATURE", "O", "B-FEATURE", "I-FEATURE"],
+          "TABLE": ["O", "O", "O", "O", "B-TABLE", "I-TABLE", "O", "B-TABLE", "I-TABLE", "O", "B-TABLE", "I-TABLE", "O", "B-TABLE", "I-TABLE"]
+        }
+      },
+      {
+        "id": 93,
+        "tokens": ["Create", "a", "line", "graph", "depicting", "fuel", "levels", "in", "mission", "2", "over", "the", "last", "9", "months"],
+        "BIO_tags": {
+          "ACTION": ["B-ACTION", "O", "B-ACTION", "O", "B-FEATURE", "I-FEATURE", "O", "B-FEATURE", "I-FEATURE", "O", "O", "O", "O", "O", "O"],
+          "TABLE": ["O", "O", "O", "O", "B-TABLE", "I-TABLE", "O", "B-TABLE", "I-TABLE", "O", "O", "O", "O", "O", "O"]
+        }
+      },
+      {
+        "id": 94,
+        "tokens": ["Plot", "a", "bar", "chart", "showing", "CO2", "levels", "in", "mission", "3", "for", "the", "last", "7", "months"],
+        "BIO_tags": {
+          "ACTION": ["B-ACTION", "O", "B-ACTION", "I-ACTION", "O", "B-FEATURE", "I-FEATURE", "O", "B-FEATURE", "I-FEATURE", "O", "O", "O", "O", "O", "O"],
+          "TABLE": ["O", "O", "O", "O", "O", "B-TABLE", "I-TABLE", "O", "B-TABLE", "I-TABLE", "O", "O", "O", "O", "O", "O"]
+        }
+      },
+      {
+        "id": 95,
+        "tokens": ["Generate", "a", "line", "plot", "for", "acceleration", "in", "mission", "1", "and", "temperature", "in", "mission", "3"],
+        "BIO_tags": {
+          "ACTION": ["B-ACTION", "O", "B-ACTION", "O", "B-FEATURE", "O", "B-FEATURE", "I-FEATURE", "O", "B-FEATURE", "O", "B-FEATURE", "I-FEATURE"],
+          "TABLE": ["O", "O", "O", "O", "B-TABLE", "O", "B-TABLE", "I-TABLE", "O", "B-TABLE", "O", "B-TABLE", "I-TABLE"]
+        }
+      },
+      {
+        "id": 96,
+        "tokens": ["Create", "a", "line", "chart", "comparing", "pressure", "in", "mission", "2", "and", "mission", "3"],
+        "BIO_tags": {
+          "ACTION": ["B-ACTION", "O", "B-ACTION", "I-ACTION", "O", "B-FEATURE", "O", "B-FEATURE", "I-FEATURE", "O", "B-FEATURE", "I-FEATURE"],
+          "TABLE": ["O", "O", "O", "O", "O", "B-TABLE", "I-TABLE", "O", "B-TABLE", "I-TABLE", "O", "B-TABLE", "I-TABLE"]
+        }
+      },
+      {
+        "id": 97,
+        "tokens": ["Plot", "a", "scatter", "plot", "of", "GPS", "longitude", "in", "mission", "1", "versus", "fuel", "levels", "in", "mission", "2"],
+        "BIO_tags": {
+          "ACTION": ["B-ACTION", "O", "B-ACTION", "I-ACTION", "O", "B-FEATURE", "I-FEATURE", "O", "B-FEATURE", "I-FEATURE", "O", "B-FEATURE", "I-FEATURE", "O", "B-FEATURE", "I-FEATURE"],
+          "TABLE": ["O", "O", "O", "O", "B-TABLE", "I-TABLE", "O", "B-TABLE", "I-TABLE", "O", "B-TABLE", "I-TABLE", "O", "B-TABLE", "I-TABLE"]
+        }
+      },
+      {
+        "id": 98,
+        "tokens": ["Generate", "a", "line", "graph", "for", "thrust", "in", "mission", "3", "over", "the", "last", "8", "months"],
+        "BIO_tags": {
+          "ACTION": ["B-ACTION", "O", "B-ACTION", "O", "B-FEATURE", "O", "B-FEATURE", "I-FEATURE", "O", "O", "O", "O", "O", "O"],
+          "TABLE": ["O", "O", "O", "O", "B-TABLE", "O", "B-TABLE", "I-TABLE", "O", "O", "O", "O", "O", "O"]
+        }
+      },
+      {
+        "id": 99,
+        "tokens": ["Make", "a", "scatter", "plot", "showing", "GPS", "latitude", "in", "mission", "2", "over", "the", "last", "6", "months"],
+        "BIO_tags": {
+          "ACTION": ["B-ACTION", "O", "B-ACTION", "O", "B-FEATURE", "I-FEATURE", "O", "B-FEATURE", "I-FEATURE", "O", "O", "O", "O", "O", "O"],
+          "TABLE": ["O", "O", "O", "O", "B-TABLE", "I-TABLE", "O", "B-TABLE", "I-TABLE", "O", "O", "O", "O", "O", "O"]
+        }
+      },
+      {
+        "id": 100,
+        "tokens": ["Draw", "a", "graph", "depicting", "volt", "in", "mission", "1", "over", "the", "past", "7", "months"],
+        "BIO_tags": {
+          "ACTION": ["B-ACTION", "O", "B-ACTION", "O", "B-FEATURE", "O", "B-FEATURE", "I-FEATURE", "O", "O", "O", "O", "O"],
+          "TABLE": ["O", "O", "O", "O", "B-TABLE", "O", "B-TABLE", "I-TABLE", "O", "O", "O", "O", "O"]
+        }
+      },
+      {
+        "id": 101,
+        "tokens": ["Generate", "a", "scatter", "plot", "for", "engine", "status", "in", "mission", "3", "vs", "GPS", "longitude", "in", "mission", "2"],
+        "BIO_tags": {
+          "ACTION": ["B-ACTION", "O", "B-ACTION", "O", "B-FEATURE", "I-FEATURE", "O", "B-FEATURE", "I-FEATURE", "O", "B-FEATURE", "I-FEATURE", "O", "B-FEATURE", "I-FEATURE"],
+          "TABLE": ["O", "O", "O", "O", "B-TABLE", "I-TABLE", "O", "B-TABLE", "I-TABLE", "O", "B-TABLE", "I-TABLE", "O", "B-TABLE", "I-TABLE"]
+        }
+      },
+      {
+        "id": 102,
+        "tokens": ["Create", "a", "line", "plot", "showing", "oxygen", "levels", "in", "mission", "1", "over", "the", "past", "9", "months"],
+        "BIO_tags": {
+          "ACTION": ["B-ACTION", "O", "B-ACTION", "O", "B-FEATURE", "O", "B-FEATURE", "I-FEATURE", "O", "B-FEATURE", "I-FEATURE", "O", "O", "O", "O", "O"],
+          "TABLE": ["O", "O", "O", "O", "B-TABLE", "O", "B-TABLE", "I-TABLE", "O", "B-TABLE", "I-TABLE", "O", "O", "O", "O", "O"]
+        }
+      },
+      {
+        "id": 103,
+        "tokens": ["Plot", "a", "bar", "chart", "depicting", "CO2", "levels", "in", "mission", "2", "for", "the", "last", "5", "months"],
+        "BIO_tags": {
+          "ACTION": ["B-ACTION", "O", "B-ACTION", "I-ACTION", "O", "B-FEATURE", "I-FEATURE", "O", "B-FEATURE", "I-FEATURE", "O", "O", "O", "O", "O", "O"],
+          "TABLE": ["O", "O", "O", "O", "O", "B-TABLE", "I-TABLE", "O", "B-TABLE", "I-TABLE", "O", "O", "O", "O", "O", "O"]
+        }
+      },
+      {
+        "id": 104,
+        "tokens": ["Generate", "a", "line", "graph", "for", "thrust", "in", "mission", "1", "over", "the", "last", "7", "months"],
+        "BIO_tags": {
+          "ACTION": ["B-ACTION", "O", "B-ACTION", "O", "B-FEATURE", "O", "B-FEATURE", "I-FEATURE", "O", "O", "O", "O", "O", "O"],
+          "TABLE": ["O", "O", "O", "O", "B-TABLE", "O", "B-TABLE", "I-TABLE", "O", "O", "O", "O", "O", "O"]
+        }
+      },
+      {
+        "id": 105,
+        "tokens": ["Make", "a", "line", "graph", "depicting", "fuel", "levels", "in", "mission", "3", "over", "the", "past", "10", "months"],
+        "BIO_tags": {
+          "ACTION": ["B-ACTION", "O", "B-ACTION", "O", "B-FEATURE", "O", "B-FEATURE", "I-FEATURE", "O", "B-FEATURE", "I-FEATURE", "O", "O", "O", "O", "O"],
+          "TABLE": ["O", "O", "O", "O", "B-TABLE", "O", "B-TABLE", "I-TABLE", "O", "B-TABLE", "I-TABLE", "O", "O", "O", "O", "O"]
+        }
+      },
+      {
+        "id": 106,
+        "tokens": ["Create", "a", "line", "chart", "comparing", "temperature", "in", "mission", "1", "and", "mission", "2"],
+        "BIO_tags": {
+          "ACTION": ["B-ACTION", "O", "B-ACTION", "O", "B-FEATURE", "O", "B-FEATURE", "I-FEATURE", "O", "B-FEATURE", "I-FEATURE", "O"],
+          "TABLE": ["O", "O", "O", "O", "B-TABLE", "O", "B-TABLE", "I-TABLE", "O", "B-TABLE", "I-TABLE", "O"]
+        }
+      },
+      {
+        "id": 107,
+        "tokens": ["Plot", "a", "graph", "for", "pressure", "in", "mission", "3", "over", "the", "last", "6", "months"],
+        "BIO_tags": {
+          "ACTION": ["B-ACTION", "O", "B-ACTION", "O", "B-FEATURE", "O", "B-FEATURE", "I-FEATURE", "O", "O", "O", "O", "O"],
+          "TABLE": ["O", "O", "O", "O", "B-TABLE", "O", "B-TABLE", "I-TABLE", "O", "O", "O", "O", "O"]
+        }
+      },
+      {
+        "id": 108,
+        "tokens": ["Generate", "a", "scatter", "plot", "for", "GPS", "longitude", "in", "mission", "1", "and", "fuel", "levels", "in", "mission", "3"],
+        "BIO_tags": {
+          "ACTION": ["B-ACTION", "O", "B-ACTION", "O", "B-FEATURE", "I-FEATURE", "O", "B-FEATURE", "I-FEATURE", "O", "B-FEATURE", "O", "B-FEATURE", "I-FEATURE", "O", "B-FEATURE", "I-FEATURE"],
+          "TABLE": ["O", "O", "O", "O", "B-TABLE", "I-TABLE", "O", "B-TABLE", "I-TABLE", "O", "B-TABLE", "O", "B-TABLE", "I-TABLE", "O", "B-TABLE", "I-TABLE"]
+        }
+      },
+      {
+        "id": 109,
+        "tokens": ["Make", "a", "line", "graph", "showing", "thrust", "in", "mission", "2", "over", "the", "past", "9", "months"],
+        "BIO_tags": {
+          "ACTION": ["B-ACTION", "O", "B-ACTION", "O", "B-FEATURE", "O", "B-FEATURE", "I-FEATURE", "O", "O", "O", "O", "O", "O"],
+          "TABLE": ["O", "O", "O", "O", "B-TABLE", "O", "B-TABLE", "I-TABLE", "O", "O", "O", "O", "O", "O"]
+        }
+      },
+      {
+        "id": 110,
+        "tokens": ["Draw", "a", "graph", "depicting", "battery", "levels", "in", "mission", "1", "over", "the", "last", "8", "months"],
+        "BIO_tags": {
+          "ACTION": ["B-ACTION", "O", "B-ACTION", "O", "B-FEATURE", "O", "B-FEATURE", "I-FEATURE", "O", "O", "O", "O", "O", "O"],
+          "TABLE": ["O", "O", "O", "O", "B-TABLE", "O", "B-TABLE", "I-TABLE", "O", "O", "O", "O", "O", "O"]
+        }
+      },
+      {
+        "id": 111,
+        "tokens": ["Plot", "a", "bar", "chart", "comparing", "CO2", "levels", "in", "mission", "2", "and", "mission", "3"],
+        "BIO_tags": {
+          "ACTION": ["B-ACTION", "O", "B-ACTION", "I-ACTION", "O", "B-FEATURE", "I-FEATURE", "O", "B-FEATURE", "I-FEATURE", "O", "B-FEATURE", "I-FEATURE", "O"],
+          "TABLE": ["O", "O", "O", "O", "O", "B-TABLE", "I-TABLE", "O", "B-TABLE", "I-TABLE", "O", "B-TABLE", "I-TABLE", "O"]
+        }
+      },
+      {
+        "id": 112,
+        "tokens": ["Generate", "a", "scatter", "plot", "for", "engine", "status", "in", "mission", "1", "versus", "GPS", "latitude", "in", "mission", "3"],
+        "BIO_tags": {
+          "ACTION": ["B-ACTION", "O", "B-ACTION", "O", "B-FEATURE", "I-FEATURE", "O", "B-FEATURE", "I-FEATURE", "O", "B-FEATURE", "I-FEATURE", "O", "B-FEATURE", "I-FEATURE", "O", "B-FEATURE", "I-FEATURE"],
+          "TABLE": ["O", "O", "O", "O", "B-TABLE", "I-TABLE", "O", "B-TABLE", "I-TABLE", "O", "B-TABLE", "I-TABLE", "O", "B-TABLE", "I-TABLE", "O", "B-TABLE", "I-TABLE"]
+        }
+      },
+      {
+        "id": 113,
+        "tokens": ["Create", "a", "line", "plot", "showing", "temperature", "in", "mission", "2", "over", "the", "past", "7", "months"],
+        "BIO_tags": {
+          "ACTION": ["B-ACTION", "O", "B-ACTION", "O", "B-FEATURE", "O", "B-FEATURE", "I-FEATURE", "O", "O", "O", "O", "O", "O"],
+          "TABLE": ["O", "O", "O", "O", "B-TABLE", "O", "B-TABLE", "I-TABLE", "O", "O", "O", "O", "O", "O"]
+        }
+      },
+      {
+        "id": 114,
+        "tokens": ["Plot", "a", "bar", "chart", "showing", "fuel", "levels", "in", "mission", "1", "for", "the", "last", "6", "months"],
+        "BIO_tags": {
+          "ACTION": ["B-ACTION", "O", "B-ACTION", "I-ACTION", "O", "B-FEATURE", "I-FEATURE", "O", "B-FEATURE", "I-FEATURE", "O", "O", "O", "O", "O", "O"],
+          "TABLE": ["O", "O", "O", "O", "O", "B-TABLE", "I-TABLE", "O", "B-TABLE", "I-TABLE", "O", "O", "O", "O", "O", "O"]
+        }
+      },
+      {
+        "id": 115,
+        "tokens": ["Generate", "a", "line", "graph", "for", "acceleration", "in", "mission", "3", "over", "the", "last", "5", "months"],
+        "BIO_tags": {
+          "ACTION": ["B-ACTION", "O", "B-ACTION", "O", "B-FEATURE", "O", "B-FEATURE", "I-FEATURE", "O", "O", "O", "O", "O", "O"],
+          "TABLE": ["O", "O", "O", "O", "B-TABLE", "O", "B-TABLE", "I-TABLE", "O", "O", "O", "O", "O", "O"]
+        }
+      },
+      {
+        "id": 116,
+        "tokens": ["Make", "a", "scatter", "plot", "showing", "GPS", "latitude", "in", "mission", "1", "versus", "pressure", "in", "mission", "2"],
+        "BIO_tags": {
+          "ACTION": ["B-ACTION", "O", "B-ACTION", "O", "O", "B-FEATURE", "I-FEATURE", "O", "B-FEATURE", "I-FEATURE", "O", "B-FEATURE", "O", "B-FEATURE", "I-FEATURE"],
+          "TABLE": ["O", "O", "O", "O", "O", "B-TABLE", "I-TABLE", "O", "B-TABLE", "I-TABLE", "O", "B-TABLE", "O", "B-TABLE", "I-TABLE"]
+        }
+      },
+      {
+        "id": 117,
+        "tokens": ["Generate", "a", "line", "graph", "comparing", "thrust", "in", "mission", "1", "and", "temperature", "in", "mission", "3"],
+        "BIO_tags": {
+          "ACTION": ["B-ACTION", "O", "B-ACTION", "O", "B-FEATURE", "O", "B-FEATURE", "I-FEATURE", "O", "B-FEATURE", "I-FEATURE", "O", "B-FEATURE", "I-FEATURE"],
+          "TABLE": ["O", "O", "O", "O", "B-TABLE", "O", "B-TABLE", "I-TABLE", "O", "B-TABLE", "I-TABLE", "O", "B-TABLE", "I-TABLE"]
+        }
+      },
+      {
+        "id": 118,
+        "tokens": ["Create", "a", "line", "chart", "depicting", "CO2", "levels", "in", "mission", "2", "over", "the", "last", "8", "months"],
+        "BIO_tags": {
+          "ACTION": ["B-ACTION", "O", "B-ACTION", "O", "B-FEATURE", "I-FEATURE", "O", "B-FEATURE", "I-FEATURE", "O", "O", "O", "O", "O", "O"],
+          "TABLE": ["O", "O", "O", "O", "B-TABLE", "I-TABLE", "O", "B-TABLE", "I-TABLE", "O", "O", "O", "O", "O", "O"]
+        }
+      },
+      {
+        "id": 119,
+        "tokens": ["Plot", "a", "bar", "chart", "showing", "oxygen", "levels", "in", "mission", "3", "for", "the", "last", "6", "months"],
+        "BIO_tags": {
+          "ACTION": ["B-ACTION", "O", "B-ACTION", "I-ACTION", "O", "B-FEATURE", "I-FEATURE", "O", "B-FEATURE", "I-FEATURE", "O", "O", "O", "O", "O", "O"],
+          "TABLE": ["O", "O", "O", "O", "O", "B-TABLE", "I-TABLE", "O", "B-TABLE", "I-TABLE", "O", "O", "O", "O", "O", "O"]
+        }
+      },
+      {
+        "id": 120,
+        "tokens": ["Generate", "a", "scatter", "plot", "for", "fuel", "levels", "in", "mission", "2", "over", "the", "last", "7", "months"],
+        "BIO_tags": {
+          "ACTION": ["B-ACTION", "O", "B-ACTION", "O", "B-FEATURE", "I-FEATURE", "O", "B-FEATURE", "I-FEATURE", "O", "O", "O", "O", "O", "O"],
+          "TABLE": ["O", "O", "O", "O", "B-TABLE", "I-TABLE", "O", "B-TABLE", "I-TABLE", "O", "O", "O", "O", "O", "O"]
+        }
+      },
+      {
+        "id": 121,
+        "tokens": ["Make", "a", "line", "plot", "showing", "engine", "status", "in", "mission", "3", "over", "the", "past", "6", "months"],
+        "BIO_tags": {
+          "ACTION": ["B-ACTION", "O", "B-ACTION", "O", "B-FEATURE", "O", "B-FEATURE", "I-FEATURE", "O", "B-FEATURE", "I-FEATURE", "O", "O", "O", "O", "O"],
+          "TABLE": ["O", "O", "O", "O", "B-TABLE", "O", "B-TABLE", "I-TABLE", "O", "B-TABLE", "I-TABLE", "O", "O", "O", "O", "O"]
+        }
+      },
+      {
+        "id": 122,
+        "tokens": ["Create", "a", "line", "chart", "comparing", "GPS", "longitude", "in", "mission", "1", "and", "mission", "3"],
+        "BIO_tags": {
+          "ACTION": ["B-ACTION", "O", "B-ACTION", "O", "O", "B-FEATURE", "I-FEATURE", "O", "B-FEATURE", "I-FEATURE", "O", "B-FEATURE", "I-FEATURE"],
+          "TABLE": ["O", "O", "O", "O", "O", "B-TABLE", "I-TABLE", "O", "B-TABLE", "I-TABLE", "O", "B-TABLE", "I-TABLE"]
+        }
+      },
+      {
+        "id": 123,
+        "tokens": ["Plot", "a", "bar", "chart", "showing", "temperature", "in", "mission", "2", "for", "the", "last", "9", "months"],
+        "BIO_tags": {
+          "ACTION": ["B-ACTION", "O", "B-ACTION", "I-ACTION", "O", "B-FEATURE", "I-FEATURE", "O", "B-FEATURE", "I-FEATURE", "O", "O", "O", "O", "O", "O"],
+          "TABLE": ["O", "O", "O", "O", "O", "B-TABLE", "I-TABLE", "O", "B-TABLE", "I-TABLE", "O", "O", "O", "O", "O", "O"]
+        }
+      },
+      {
+        "id": 124,
+        "tokens": ["Generate", "a", "line", "graph", "for", "fuel", "levels", "in", "mission", "1", "over", "the", "last", "5", "months"],
+        "BIO_tags": {
+          "ACTION": ["B-ACTION", "O", "B-ACTION", "O", "B-FEATURE", "I-FEATURE", "O", "B-FEATURE", "I-FEATURE", "O", "O", "O", "O", "O", "O"],
+          "TABLE": ["O", "O", "O", "O", "B-TABLE", "I-TABLE", "O", "B-TABLE", "I-TABLE", "O", "O", "O", "O", "O", "O"]
+        }
+      },
+      {
+        "id": 125,
+        "tokens": ["Draw", "a", "graph", "depicting", "pressure", "in", "mission", "3", "over", "the", "past", "7", "months"],
+        "BIO_tags": {
+          "ACTION": ["B-ACTION", "O", "B-ACTION", "O", "B-FEATURE", "O", "B-FEATURE", "I-FEATURE", "O", "O", "O", "O", "O", "O"],
+          "TABLE": ["O", "O", "O", "O", "B-TABLE", "O", "B-TABLE", "I-TABLE", "O", "O", "O", "O", "O", "O"]
+        }
+      },
+      {
+        "id": 126,
+        "tokens": ["Make", "a", "line", "plot", "comparing", "accelerometer", "X", "in", "mission", "1", "and", "mission", "2"],
+        "BIO_tags": {
+          "ACTION": ["B-ACTION", "O", "B-ACTION", "O", "O", "B-FEATURE", "I-FEATURE", "O", "B-FEATURE", "I-FEATURE", "O", "B-FEATURE", "I-FEATURE"],
+          "TABLE": ["O", "O", "O", "O", "O", "B-TABLE", "I-TABLE", "O", "B-TABLE", "I-TABLE", "O", "B-TABLE", "I-TABLE"]
+        }
+      },
+      {
+        "id": 127,
+        "tokens": ["Plot", "a", "graph", "for", "gyroscope", "Y", "in", "mission", "3", "over", "the", "last", "6", "months"],
+        "BIO_tags": {
+          "ACTION": ["B-ACTION", "O", "B-ACTION", "O", "B-FEATURE", "I-FEATURE", "O", "B-FEATURE", "I-FEATURE", "O", "O", "O", "O", "O"],
+          "TABLE": ["O", "O", "O", "O", "B-TABLE", "I-TABLE", "O", "B-TABLE", "I-TABLE", "O", "O", "O", "O", "O"]
+        }
+      },
+      {
+        "id": 128,
+        "tokens": ["Generate", "a", "line", "chart", "comparing", "GPS", "latitude", "in", "mission", "2", "and", "pressure", "in", "mission", "3"],
+        "BIO_tags": {
+          "ACTION": ["B-ACTION", "O", "B-ACTION", "O", "O", "B-FEATURE", "I-FEATURE", "O", "B-FEATURE", "I-FEATURE", "O", "B-FEATURE", "O", "B-FEATURE", "I-FEATURE"],
+          "TABLE": ["O", "O", "O", "O", "O", "B-TABLE", "I-TABLE", "O", "B-TABLE", "I-TABLE", "O", "B-TABLE", "O", "B-TABLE", "I-TABLE"]
+        }
+      },
+      {
+        "id": 129,
+        "tokens": ["Plot", "a", "bar", "chart", "showing", "volt", "in", "mission", "1", "for", "the", "last", "9", "months"],
+        "BIO_tags": {
+          "ACTION": ["B-ACTION", "O", "B-ACTION", "I-ACTION", "O", "B-FEATURE", "I-FEATURE", "O", "B-FEATURE", "I-FEATURE", "O", "O", "O", "O", "O", "O"],
+          "TABLE": ["O", "O", "O", "O", "O", "B-TABLE", "I-TABLE", "O", "B-TABLE", "I-TABLE", "O", "O", "O", "O", "O", "O"]
+        }
+      },
+      {
+        "id": 130,
+        "tokens": ["Generate", "a", "scatter", "plot", "for", "fuel", "levels", "in", "mission", "2", "over", "the", "last", "8", "months"],
+        "BIO_tags": {
+          "ACTION": ["B-ACTION", "O", "B-ACTION", "O", "B-FEATURE", "I-FEATURE", "O", "B-FEATURE", "I-FEATURE", "O", "O", "O", "O", "O", "O"],
+          "TABLE": ["O", "O", "O", "O", "B-TABLE", "I-TABLE", "O", "B-TABLE", "I-TABLE", "O", "O", "O", "O", "O", "O"]
+        }
+      },
+      {
+        "id": 131,
+        "tokens": ["Draw", "a", "graph", "depicting", "accelerometer", "Z", "in", "mission", "1", "over", "the", "last", "7", "months"],
+        "BIO_tags": {
+          "ACTION": ["B-ACTION", "O", "B-ACTION", "O", "B-FEATURE", "I-FEATURE", "O", "B-FEATURE", "I-FEATURE", "O", "O", "O", "O", "O"],
+          "TABLE": ["O", "O", "O", "O", "B-TABLE", "I-TABLE", "O", "B-TABLE", "I-TABLE", "O", "O", "O", "O", "O"]
+        }
+      },
+      {
+        "id": 132,
+        "tokens": ["Create", "a", "line", "plot", "showing", "gyroscope", "X", "in", "mission", "3", "over", "the", "last", "6", "months"],
+        "BIO_tags": {
+          "ACTION": ["B-ACTION", "O", "B-ACTION", "O", "B-FEATURE", "I-FEATURE", "O", "B-FEATURE", "I-FEATURE", "O", "O", "O", "O", "O", "O"],
+          "TABLE": ["O", "O", "O", "O", "B-TABLE", "I-TABLE", "O", "B-TABLE", "I-TABLE", "O", "O", "O", "O", "O", "O"]
+        }
+      },
+      {
+        "id": 133,
+        "tokens": ["Make", "a", "scatter", "plot", "depicting", "temperature", "in", "mission", "2", "over", "the", "last", "5", "months"],
+        "BIO_tags": {
+          "ACTION": ["B-ACTION", "O", "B-ACTION", "O", "B-FEATURE", "I-FEATURE", "O", "B-FEATURE", "I-FEATURE", "O", "O", "O", "O", "O", "O"],
+          "TABLE": ["O", "O", "O", "O", "B-TABLE", "I-TABLE", "O", "B-TABLE", "I-TABLE", "O", "O", "O", "O", "O", "O"]
+        }
+      },
+      {
+        "id": 134,
+        "tokens": ["Generate", "a", "line", "graph", "comparing", "thrust", "in", "mission", "1", "and", "pressure", "in", "mission", "2"],
+        "BIO_tags": {
+          "ACTION": ["B-ACTION", "O", "B-ACTION", "O", "O", "B-FEATURE", "O", "B-FEATURE", "I-FEATURE", "O", "B-FEATURE", "O", "B-FEATURE", "I-FEATURE"],
+          "TABLE": ["O", "O", "O", "O", "O", "B-TABLE", "O", "B-TABLE", "I-TABLE", "O", "B-TABLE", "O", "B-TABLE", "I-TABLE"]
+        }
+      },
+      {
+        "id": 135,
+        "tokens": ["Plot", "a", "bar", "chart", "showing", "fuel", "levels", "in", "mission", "3", "for", "the", "last", "7", "months"],
+        "BIO_tags": {
+          "ACTION": ["B-ACTION", "O", "B-ACTION", "I-ACTION", "O", "B-FEATURE", "I-FEATURE", "O", "B-FEATURE", "I-FEATURE", "O", "O", "O", "O", "O", "O"],
+          "TABLE": ["O", "O", "O", "O", "O", "B-TABLE", "I-TABLE", "O", "B-TABLE", "I-TABLE", "O", "O", "O", "O", "O", "O"]
+        }
+      },
+      {
+        "id": 136,
+        "tokens": ["Create", "a", "line", "plot", "for", "acceleration", "in", "mission", "2", "over", "the", "last", "8", "months"],
+        "BIO_tags": {
+          "ACTION": ["B-ACTION", "O", "B-ACTION", "O", "B-FEATURE", "O", "B-FEATURE", "I-FEATURE", "O", "O", "O", "O", "O", "O"],
+          "TABLE": ["O", "O", "O", "O", "B-TABLE", "O", "B-TABLE", "I-TABLE", "O", "O", "O", "O", "O", "O"]
+        }
+      },
+      {
+        "id": 137,
+        "tokens": ["Generate", "a", "scatter", "plot", "depicting", "gyroscope", "Z", "in", "mission", "1", "over", "the", "last", "7", "months"],
+        "BIO_tags": {
+          "ACTION": ["B-ACTION", "O", "B-ACTION", "O", "B-FEATURE", "I-FEATURE", "O", "B-FEATURE", "I-FEATURE", "O", "O", "O", "O", "O", "O"],
+          "TABLE": ["O", "O", "O", "O", "B-TABLE", "I-TABLE", "O", "B-TABLE", "I-TABLE", "O", "O", "O", "O", "O", "O"]
+        }
+      },
+      {
+        "id": 138,
+        "tokens": ["Make", "a", "line", "chart", "showing", "volt", "in", "mission", "3", "over", "the", "last", "6", "months"],
+        "BIO_tags": {
+          "ACTION": ["B-ACTION", "O", "B-ACTION", "O", "B-FEATURE", "I-FEATURE", "O", "B-FEATURE", "I-FEATURE", "O", "O", "O", "O", "O"],
+          "TABLE": ["O", "O", "O", "O", "B-TABLE", "I-TABLE", "O", "B-TABLE", "I-TABLE", "O", "O", "O", "O", "O"]
+        }
+      },
+      {
+        "id": 139,
+        "tokens": ["Plot", "a", "bar", "chart", "comparing", "GPS", "longitude", "in", "mission", "1", "and", "mission", "2"],
+        "BIO_tags": {
+          "ACTION": ["B-ACTION", "O", "B-ACTION", "O", "O", "B-FEATURE", "I-FEATURE", "O", "B-FEATURE", "I-FEATURE", "O", "B-FEATURE", "I-FEATURE"],
+          "TABLE": ["O", "O", "O", "O", "O", "B-TABLE", "I-TABLE", "O", "B-TABLE", "I-TABLE", "O", "B-TABLE", "I-TABLE"]
+        }
+      },
+      {
+        "id": 140,
+        "tokens": ["Generate", "a", "line", "graph", "comparing", "CO2", "levels", "in", "mission", "3", "and", "fuel", "levels", "in", "mission", "1"],
+        "BIO_tags": {
+          "ACTION": ["B-ACTION", "O", "B-ACTION", "O", "O", "B-FEATURE", "I-FEATURE", "O", "B-FEATURE", "I-FEATURE", "O", "B-FEATURE", "I-FEATURE", "O", "B-FEATURE", "I-FEATURE"],
+          "TABLE": ["O", "O", "O", "O", "O", "B-TABLE", "I-TABLE", "O", "B-TABLE", "I-TABLE", "O", "B-TABLE", "I-TABLE", "O", "B-TABLE", "I-TABLE"]
+        }
+      },
+      {
+        "id": 141,
+        "tokens": ["Plot", "a", "line", "graph", "showing", "thrust", "in", "mission", "2", "over", "the", "past", "9", "months"],
+        "BIO_tags": {
+          "ACTION": ["B-ACTION", "O", "B-ACTION", "O", "B-FEATURE", "O", "B-FEATURE", "I-FEATURE", "O", "O", "O", "O", "O", "O"],
+          "TABLE": ["O", "O", "O", "O", "B-TABLE", "O", "B-TABLE", "I-TABLE", "O", "O", "O", "O", "O", "O"]
+        }
+      },
+      {
+        "id": 142,
+        "tokens": ["Draw", "a", "scatter", "plot", "depicting", "temperature", "in", "mission", "1", "over", "the", "last", "6", "months"],
+        "BIO_tags": {
+          "ACTION": ["B-ACTION", "O", "B-ACTION", "O", "B-FEATURE", "I-FEATURE", "O", "B-FEATURE", "I-FEATURE", "O", "O", "O", "O", "O"],
+          "TABLE": ["O", "O", "O", "O", "B-TABLE", "I-TABLE", "O", "B-TABLE", "I-TABLE", "O", "O", "O", "O", "O"]
+        }
+      },
+      {
+        "id": 143,
+        "tokens": ["Generate", "a", "line", "plot", "showing", "pressure", "in", "mission", "3", "over", "the", "past", "7", "months"],
+        "BIO_tags": {
+          "ACTION": ["B-ACTION", "O", "B-ACTION", "O", "B-FEATURE", "O", "B-FEATURE", "I-FEATURE", "O", "O", "O", "O", "O", "O"],
+          "TABLE": ["O", "O", "O", "O", "B-TABLE", "O", "B-TABLE", "I-TABLE", "O", "O", "O", "O", "O", "O"]
+        }
+      },
+      {
+        "id": 144,
+        "tokens": ["Make", "a", "line", "chart", "comparing", "GPS", "latitude", "in", "mission", "2", "and", "fuel", "levels", "in", "mission", "3"],
+        "BIO_tags": {
+          "ACTION": ["B-ACTION", "O", "B-ACTION", "O", "O", "B-FEATURE", "I-FEATURE", "O", "B-FEATURE", "I-FEATURE", "O", "B-FEATURE", "I-FEATURE", "O", "B-FEATURE", "I-FEATURE"],
+          "TABLE": ["O", "O", "O", "O", "O", "B-TABLE", "I-TABLE", "O", "B-TABLE", "I-TABLE", "O", "B-TABLE", "I-TABLE", "O", "B-TABLE", "I-TABLE"]
+        }
+      },
+      {
+        "id": 145,
+        "tokens": ["Plot", "a", "bar", "chart", "showing", "thrust", "in", "mission", "1", "over", "the", "last", "5", "months"],
+        "BIO_tags": {
+          "ACTION": ["B-ACTION", "O", "B-ACTION", "O", "B-FEATURE", "O", "B-FEATURE", "I-FEATURE", "O", "O", "O", "O", "O", "O", "O"],
+          "TABLE": ["O", "O", "O", "O", "B-TABLE", "O", "B-TABLE", "I-TABLE", "O", "O", "O", "O", "O", "O", "O"]
+        }
+      },
+      {
+        "id": 146,
+        "tokens": ["Create", "a", "line", "graph", "comparing", "temperature", "in", "mission", "1", "and", "mission", "3"],
+        "BIO_tags": {
+          "ACTION": ["B-ACTION", "O", "B-ACTION", "O", "O", "B-FEATURE", "O", "B-FEATURE", "I-FEATURE", "O", "B-FEATURE", "I-FEATURE"],
+          "TABLE": ["O", "O", "O", "O", "O", "B-TABLE", "O", "B-TABLE", "I-TABLE", "O", "B-TABLE", "I-TABLE"]
+        }
+      },
+      {
+        "id": 147,
+        "tokens": ["Make", "a", "line", "plot", "for", "accelerometer", "Y", "in", "mission", "2", "over", "the", "last", "9", "months"],
+        "BIO_tags": {
+          "ACTION": ["B-ACTION", "O", "B-ACTION", "O", "B-FEATURE", "I-FEATURE", "O", "B-FEATURE", "I-FEATURE", "O", "O", "O", "O", "O", "O"],
+          "TABLE": ["O", "O", "O", "O", "B-TABLE", "I-TABLE", "O", "B-TABLE", "I-TABLE", "O", "O", "O", "O", "O", "O"]
+        }
+      },
+      {
+        "id": 148,
+        "tokens": ["Generate", "a", "scatter", "plot", "showing", "GPS", "longitude", "in", "mission", "3", "over", "the", "past", "6", "months"],
+        "BIO_tags": {
+          "ACTION": ["B-ACTION", "O", "B-ACTION", "O", "O", "B-FEATURE", "I-FEATURE", "O", "B-FEATURE", "I-FEATURE", "O", "O", "O", "O", "O"],
+          "TABLE": ["O", "O", "O", "O", "O", "B-TABLE", "I-TABLE", "O", "B-TABLE", "I-TABLE", "O", "O", "O", "O", "O"]
+        }
+      },
+      {
+        "id": 149,
+        "tokens": ["Plot", "a", "bar", "chart", "depicting", "pressure", "in", "mission", "2", "for", "the", "last", "7", "months"],
+        "BIO_tags": {
+          "ACTION": ["B-ACTION", "O", "B-ACTION", "O", "B-FEATURE", "O", "B-FEATURE", "I-FEATURE", "O", "O", "O", "O", "O", "O", "O"],
+          "TABLE": ["O", "O", "O", "O", "B-TABLE", "O", "B-TABLE", "I-TABLE", "O", "O", "O", "O", "O", "O", "O"]
+        }
+      },
+      {
+        "id": 150,
+        "tokens": ["Generate", "a", "line", "chart", "comparing", "fuel", "levels", "in", "mission", "1", "and", "pressure", "in", "mission", "3"],
+        "BIO_tags": {
+          "ACTION": ["B-ACTION", "O", "B-ACTION", "O", "O", "B-FEATURE", "I-FEATURE", "O", "B-FEATURE", "I-FEATURE", "O", "B-FEATURE", "O", "B-FEATURE", "I-FEATURE"],
+          "TABLE": ["O", "O", "O", "O", "O", "B-TABLE", "I-TABLE", "O", "B-TABLE", "I-TABLE", "O", "B-TABLE", "O", "B-TABLE", "I-TABLE"]
+        }
+      },
+      {
+        "id": 151,
+        "tokens": ["Plot", "a", "line", "graph", "depicting", "thrust", "in", "mission", "2", "over", "the", "past", "5", "months"],
+        "BIO_tags": {
+          "ACTION": ["B-ACTION", "O", "B-ACTION", "O", "B-FEATURE", "O", "B-FEATURE", "I-FEATURE", "O", "O", "O", "O", "O", "O"],
+          "TABLE": ["O", "O", "O", "O", "B-TABLE", "O", "B-TABLE", "I-TABLE", "O", "O", "O", "O", "O", "O"]
+        }
+      },
+      {
+        "id": 152,
+        "tokens": ["Create", "a", "line", "plot", "showing", "gyroscope", "X", "in", "mission", "1", "over", "the", "last", "8", "months"],
+        "BIO_tags": {
+          "ACTION": ["B-ACTION", "O", "B-ACTION", "O", "B-FEATURE", "I-FEATURE", "O", "B-FEATURE", "I-FEATURE", "O", "O", "O", "O", "O", "O"],
+          "TABLE": ["O", "O", "O", "O", "B-TABLE", "I-TABLE", "O", "B-TABLE", "I-TABLE", "O", "O", "O", "O", "O", "O"]
+        }
+      },
+      {
+        "id": 153,
+        "tokens": ["Make", "a", "scatter", "plot", "depicting", "accelerometer", "Z", "in", "mission", "2", "over", "the", "last", "6", "months"],
+        "BIO_tags": {
+          "ACTION": ["B-ACTION", "O", "B-ACTION", "O", "B-FEATURE", "I-FEATURE", "O", "B-FEATURE", "I-FEATURE", "O", "O", "O", "O", "O", "O"],
+          "TABLE": ["O", "O", "O", "O", "B-TABLE", "I-TABLE", "O", "B-TABLE", "I-TABLE", "O", "O", "O", "O", "O", "O"]
+        }
+      },
+      {
+        "id": 154,
+        "tokens": ["Generate", "a", "line", "graph", "comparing", "GPS", "latitude", "in", "mission", "1", "and", "fuel", "levels", "in", "mission", "2"],
+        "BIO_tags": {
+          "ACTION": ["B-ACTION", "O", "B-ACTION", "O", "O", "B-FEATURE", "I-FEATURE", "O", "B-FEATURE", "I-FEATURE", "O", "B-FEATURE", "I-FEATURE", "O", "B-FEATURE", "I-FEATURE"],
+          "TABLE": ["O", "O", "O", "O", "O", "B-TABLE", "I-TABLE", "O", "B-TABLE", "I-TABLE", "O", "B-TABLE", "I-TABLE", "O", "B-TABLE", "I-TABLE"]
+        }
+      },
+      {
+        "id": 155,
+        "tokens": ["Plot", "a", "bar", "chart", "showing", "O2", "level", "in", "mission", "3", "for", "the", "last", "9", "months"],
+        "BIO_tags": {
+          "ACTION": ["B-ACTION", "O", "B-ACTION", "O", "B-FEATURE", "O", "B-FEATURE", "I-FEATURE", "O", "B-FEATURE", "I-FEATURE", "O", "O", "O", "O", "O"],
+          "TABLE": ["O", "O", "O", "O", "B-TABLE", "O", "B-TABLE", "I-TABLE", "O", "B-TABLE", "I-TABLE", "O", "O", "O", "O", "O"]
+        }
+      },
+      {
+        "id": 156,
+        "tokens": ["Generate", "a", "line", "plot", "comparing", "accelerometer", "X", "in", "mission", "2", "and", "mission", "3"],
+        "BIO_tags": {
+          "ACTION": ["B-ACTION", "O", "B-ACTION", "O", "O", "B-FEATURE", "I-FEATURE", "O", "B-FEATURE", "I-FEATURE", "O", "B-FEATURE", "I-FEATURE"],
+          "TABLE": ["O", "O", "O", "O", "O", "B-TABLE", "I-TABLE", "O", "B-TABLE", "I-TABLE", "O", "B-TABLE", "I-TABLE"]
+        }
+      },
+      {
+        "id": 157,
+        "tokens": ["Plot", "a", "graph", "for", "gyroscope", "Y", "in", "mission", "1", "over", "the", "last", "8", "months"],
+        "BIO_tags": {
+          "ACTION": ["B-ACTION", "O", "B-ACTION", "O", "B-FEATURE", "I-FEATURE", "O", "B-FEATURE", "I-FEATURE", "O", "O", "O", "O", "O"],
+          "TABLE": ["O", "O", "O", "O", "B-TABLE", "I-TABLE", "O", "B-TABLE", "I-TABLE", "O", "O", "O", "O", "O"]
+        }
+      },
+      {
+        "id": 158,
+        "tokens": ["Create", "a", "line", "chart", "comparing", "GPS", "longitude", "in", "mission", "3", "and", "pressure", "in", "mission", "1"],
+        "BIO_tags": {
+          "ACTION": ["B-ACTION", "O", "B-ACTION", "O", "O", "B-FEATURE", "I-FEATURE", "O", "B-FEATURE", "I-FEATURE", "O", "B-FEATURE", "O", "B-FEATURE", "I-FEATURE"],
+          "TABLE": ["O", "O", "O", "O", "O", "B-TABLE", "I-TABLE", "O", "B-TABLE", "I-TABLE", "O", "B-TABLE", "I-TABLE", "O", "B-TABLE", "I-TABLE"]
+        }
+      },
+      {
+        "id": 159,
+        "tokens": ["Plot", "a", "bar", "chart", "showing", "volt", "in", "mission", "2", "for", "the", "last", "7", "months"],
+        "BIO_tags": {
+          "ACTION": ["B-ACTION", "O", "B-ACTION", "I-ACTION", "O", "B-FEATURE", "I-FEATURE", "O", "B-FEATURE", "I-FEATURE", "O", "O", "O", "O", "O", "O"],
+          "TABLE": ["O", "O", "O", "O", "O", "B-TABLE", "I-TABLE", "O", "B-TABLE", "I-TABLE", "O", "O", "O", "O", "O", "O"]
+        }
+      },
+      {
+        "id": 160,
+        "tokens": ["Generate", "a", "scatter", "plot", "for", "fuel", "levels", "in", "mission", "1", "over", "the", "last", "8", "months"],
+        "BIO_tags": {
+          "ACTION": ["B-ACTION", "O", "B-ACTION", "O", "B-FEATURE", "I-FEATURE", "O", "B-FEATURE", "I-FEATURE", "O", "O", "O", "O", "O", "O"],
+          "TABLE": ["O", "O", "O", "O", "B-TABLE", "I-TABLE", "O", "B-TABLE", "I-TABLE", "O", "O", "O", "O", "O", "O"]
+        }
+      },
+      {
+        "id": 161,
+        "tokens": ["Draw", "a", "graph", "depicting", "accelerometer", "Z", "in", "mission", "2", "over", "the", "last", "7", "months"],
+        "BIO_tags": {
+          "ACTION": ["B-ACTION", "O", "B-ACTION", "O", "B-FEATURE", "I-FEATURE", "O", "B-FEATURE", "I-FEATURE", "O", "O", "O", "O", "O"],
+          "TABLE": ["O", "O", "O", "O", "B-TABLE", "I-TABLE", "O", "B-TABLE", "I-TABLE", "O", "O", "O", "O", "O"]
+        }
+      },
+      {
+        "id": 162,
+        "tokens": ["Create", "a", "line", "plot", "showing", "gyroscope", "X", "in", "mission", "3", "over", "the", "last", "6", "months"],
+        "BIO_tags": {
+          "ACTION": ["B-ACTION", "O", "B-ACTION", "O", "B-FEATURE", "I-FEATURE", "O", "B-FEATURE", "I-FEATURE", "O", "O", "O", "O", "O", "O"],
+          "TABLE": ["O", "O", "O", "O", "B-TABLE", "I-TABLE", "O", "B-TABLE", "I-TABLE", "O", "O", "O", "O", "O", "O"]
+        }
+      },
+      {
+        "id": 163,
+        "tokens": ["Generate", "a", "scatter", "plot", "depicting", "temperature", "in", "mission", "1", "over", "the", "last", "5", "months"],
+        "BIO_tags": {
+          "ACTION": ["B-ACTION", "O", "B-ACTION", "O", "B-FEATURE", "I-FEATURE", "O", "B-FEATURE", "I-FEATURE", "O", "O", "O", "O", "O", "O"],
+          "TABLE": ["O", "O", "O", "O", "B-TABLE", "I-TABLE", "O", "B-TABLE", "I-TABLE", "O", "O", "O", "O", "O", "O"]
+        }
+      },
+      {
+        "id": 164,
+        "tokens": ["Plot", "a", "line", "graph", "showing", "pressure", "in", "mission", "3", "over", "the", "past", "6", "months"],
+        "BIO_tags": {
+          "ACTION": ["B-ACTION", "O", "B-ACTION", "O", "B-FEATURE", "O", "B-FEATURE", "I-FEATURE", "O", "O", "O", "O", "O", "O"],
+          "TABLE": ["O", "O", "O", "O", "B-TABLE", "O", "B-TABLE", "I-TABLE", "O", "O", "O", "O", "O", "O"]
+        }
+      },
+      {
+        "id": 165,
+        "tokens": ["Make", "a", "line", "chart", "comparing", "GPS", "latitude", "in", "mission", "2", "and", "thrust", "in", "mission", "1"],
+        "BIO_tags": {
+          "ACTION": ["B-ACTION", "O", "B-ACTION", "O", "O", "B-FEATURE", "I-FEATURE", "O", "B-FEATURE", "I-FEATURE", "O", "B-FEATURE", "O", "B-FEATURE", "I-FEATURE"],
+          "TABLE": ["O", "O", "O", "O", "O", "B-TABLE", "I-TABLE", "O", "B-TABLE", "I-TABLE", "O", "B-TABLE", "O", "B-TABLE", "I-TABLE"]
+        }
+      },
+      {
+        "id": 166,
+        "tokens": ["Generate", "a", "bar", "chart", "of", "oxygen", "levels", "in", "mission", "3", "for", "the", "last", "8", "months"],
+        "BIO_tags": {
+          "ACTION": ["B-ACTION", "O", "B-ACTION", "O", "O", "B-FEATURE", "I-FEATURE", "O", "B-FEATURE", "I-FEATURE", "O", "O", "O", "O", "O"],
+          "TABLE": ["O", "O", "O", "O", "O", "B-TABLE", "I-TABLE", "O", "B-TABLE", "I-TABLE", "O", "O", "O", "O", "O"]
+        }
+      },
+      {
+        "id": 167,
+        "tokens": ["Plot", "a", "line", "graph", "comparing", "gyroscope", "Z", "in", "mission", "2", "and", "fuel", "levels", "in", "mission", "1"],
+        "BIO_tags": {
+          "ACTION": ["B-ACTION", "O", "B-ACTION", "O", "O", "B-FEATURE", "I-FEATURE", "O", "B-FEATURE", "I-FEATURE", "O", "B-FEATURE", "I-FEATURE", "O", "B-FEATURE", "I-FEATURE"],
+          "TABLE": ["O", "O", "O", "O", "O", "B-TABLE", "I-TABLE", "O", "B-TABLE", "I-TABLE", "O", "B-TABLE", "I-TABLE", "O", "B-TABLE", "I-TABLE"]
+        }
+      },
+      {
+        "id": 168,
+        "tokens": ["Create", "a", "line", "plot", "showing", "pressure", "in", "mission", "1", "over", "the", "last", "9", "months"],
+        "BIO_tags": {
+          "ACTION": ["B-ACTION", "O", "B-ACTION", "O", "B-FEATURE", "O", "B-FEATURE", "I-FEATURE", "O", "O", "O", "O", "O", "O", "O"],
+          "TABLE": ["O", "O", "O", "O", "B-TABLE", "O", "B-TABLE", "I-TABLE", "O", "O", "O", "O", "O", "O", "O"]
+        }
+      },
+      {
+        "id": 169,
+        "tokens": ["Generate", "a", "line", "graph", "comparing", "acceleration", "in", "mission", "3", "and", "pressure", "in", "mission", "2"],
+        "BIO_tags": {
+          "ACTION": ["B-ACTION", "O", "B-ACTION", "O", "O", "B-FEATURE", "O", "B-FEATURE", "I-FEATURE", "O", "B-FEATURE", "O", "B-FEATURE", "I-FEATURE"],
+          "TABLE": ["O", "O", "O", "O", "O", "B-TABLE", "O", "B-TABLE", "I-TABLE", "O", "B-TABLE", "O", "B-TABLE", "I-TABLE"]
+        }
+      },
+      {
+        "id": 170,
+        "tokens": ["Plot", "a", "bar", "chart", "showing", "voltage", "in", "mission", "1", "over", "the", "past", "6", "months"],
+        "BIO_tags": {
+          "ACTION": ["B-ACTION", "O", "B-ACTION", "O", "O", "B-FEATURE", "O", "B-FEATURE", "I-FEATURE", "O", "O", "O", "O", "O"],
+          "TABLE": ["O", "O", "O", "O", "O", "B-TABLE", "O", "B-TABLE", "I-TABLE", "O", "O", "O", "O", "O"]
+        }
+      },
+      {
+        "id": 171,
+        "tokens": ["Generate", "a", "scatter", "plot", "depicting", "gyroscope", "Y", "in", "mission", "2", "over", "the", "past", "5", "months"],
+        "BIO_tags": {
+          "ACTION": ["B-ACTION", "O", "B-ACTION", "O", "B-FEATURE", "I-FEATURE", "O", "B-FEATURE", "I-FEATURE", "O", "O", "O", "O", "O", "O"],
+          "TABLE": ["O", "O", "O", "O", "B-TABLE", "I-TABLE", "O", "B-TABLE", "I-TABLE", "O", "O", "O", "O", "O", "O"]
+        }
+      },
+      {
+        "id": 172,
+        "tokens": ["Make", "a", "line", "plot", "comparing", "GPS", "longitude", "in", "mission", "1", "and", "GPS", "latitude", "in", "mission", "3"],
+        "BIO_tags": {
+          "ACTION": ["B-ACTION", "O", "B-ACTION", "O", "O", "B-FEATURE", "I-FEATURE", "O", "B-FEATURE", "I-FEATURE", "O", "B-FEATURE", "I-FEATURE", "O", "B-FEATURE", "I-FEATURE"],
+          "TABLE": ["O", "O", "O", "O", "O", "B-TABLE", "I-TABLE", "O", "B-TABLE", "I-TABLE", "O", "B-TABLE", "I-TABLE", "O", "B-TABLE", "I-TABLE"]
+        }
+      },
+      {
+        "id": 173,
+        "tokens": ["Plot", "a", "line", "graph", "depicting", "thrust", "in", "mission", "2", "over", "the", "last", "9", "months"],
+        "BIO_tags": {
+          "ACTION": ["B-ACTION", "O", "B-ACTION", "O", "B-FEATURE", "O", "B-FEATURE", "I-FEATURE", "O", "O", "O", "O", "O", "O", "O"],
+          "TABLE": ["O", "O", "O", "O", "B-TABLE", "O", "B-TABLE", "I-TABLE", "O", "O", "O", "O", "O", "O", "O"]
+        }
+      },
+      {
+        "id": 174,
+        "tokens": ["Generate", "a", "scatter", "plot", "for", "accelerometer", "Z", "in", "mission", "3", "over", "the", "last", "8", "months"],
+        "BIO_tags": {
+          "ACTION": ["B-ACTION", "O", "B-ACTION", "O", "B-FEATURE", "I-FEATURE", "O", "B-FEATURE", "I-FEATURE", "O", "O", "O", "O", "O", "O"],
+          "TABLE": ["O", "O", "O", "O", "B-TABLE", "I-TABLE", "O", "B-TABLE", "I-TABLE", "O", "O", "O", "O", "O", "O"]
+        }
+      },
+      {
+        "id": 175,
+        "tokens": ["Create", "a", "line", "plot", "showing", "fuel", "levels", "in", "mission", "2", "over", "the", "past", "7", "months"],
+        "BIO_tags": {
+          "ACTION": ["B-ACTION", "O", "B-ACTION", "O", "B-FEATURE", "I-FEATURE", "O", "B-FEATURE", "I-FEATURE", "O", "O", "O", "O", "O", "O"],
+          "TABLE": ["O", "O", "O", "O", "B-TABLE", "I-TABLE", "O", "B-TABLE", "I-TABLE", "O", "O", "O", "O", "O", "O"]
+        }
+      },
+      {
+        "id": 176,
+        "tokens": ["Plot", "a", "line", "graph", "comparing", "temperature", "in", "mission", "1", "and", "mission", "2"],
+        "BIO_tags": {
+          "ACTION": ["B-ACTION", "O", "B-ACTION", "O", "O", "B-FEATURE", "O", "B-FEATURE", "I-FEATURE", "O", "B-FEATURE", "I-FEATURE"],
+          "TABLE": ["O", "O", "O", "O", "O", "B-TABLE", "O", "B-TABLE", "I-TABLE", "O", "B-TABLE", "I-TABLE"]
+        }
+      },
+      {
+        "id": 177,
+        "tokens": ["Generate", "a", "bar", "chart", "of", "pressure", "in", "mission", "3", "for", "the", "last", "6", "months"],
+        "BIO_tags": {
+          "ACTION": ["B-ACTION", "O", "B-ACTION", "O", "O", "B-FEATURE", "O", "B-FEATURE", "I-FEATURE", "O", "O", "O", "O", "O", "O"],
+          "TABLE": ["O", "O", "O", "O", "O", "B-TABLE", "O", "B-TABLE", "I-TABLE", "O", "O", "O", "O", "O", "O"]
+        }
+      },
+      {
+        "id": 178,
+        "tokens": ["Create", "a", "line", "plot", "showing", "thrust", "in", "mission", "2", "over", "the", "last", "5", "months"],
+        "BIO_tags": {
+          "ACTION": ["B-ACTION", "O", "B-ACTION", "O", "B-FEATURE", "O", "B-FEATURE", "I-FEATURE", "O", "O", "O", "O", "O", "O", "O"],
+          "TABLE": ["O", "O", "O", "O", "B-TABLE", "O", "B-TABLE", "I-TABLE", "O", "O", "O", "O", "O", "O", "O"]
+        }
+      },
+      {
+        "id": 179,
+        "tokens": ["Generate", "a", "scatter", "plot", "depicting", "fuel", "levels", "in", "mission", "3", "over", "the", "last", "7", "months"],
+        "BIO_tags": {
+          "ACTION": ["B-ACTION", "O", "B-ACTION", "O", "B-FEATURE", "I-FEATURE", "O", "B-FEATURE", "I-FEATURE", "O", "O", "O", "O", "O", "O"],
+          "TABLE": ["O", "O", "O", "O", "B-TABLE", "I-TABLE", "O", "B-TABLE", "I-TABLE", "O", "O", "O", "O", "O", "O"]
+        }
+      },
+      {
+        "id": 180,
+        "tokens": ["Plot", "a", "line", "chart", "showing", "accelerometer", "X", "in", "mission", "1", "over", "the", "past", "8", "months"],
+        "BIO_tags": {
+          "ACTION": ["B-ACTION", "O", "B-ACTION", "O", "B-FEATURE", "I-FEATURE", "O", "B-FEATURE", "I-FEATURE", "O", "O", "O", "O", "O", "O"],
+          "TABLE": ["O", "O", "O", "O", "B-TABLE", "I-TABLE", "O", "B-TABLE", "I-TABLE", "O", "O", "O", "O", "O", "O"]
+        }
+      },
+      {
+        "id": 181,
+        "tokens": ["Generate", "a", "line", "graph", "comparing", "gyroscope", "Y", "in", "mission", "2", "and", "mission", "3"],
+        "BIO_tags": {
+          "ACTION": ["B-ACTION", "O", "B-ACTION", "O", "O", "B-FEATURE", "I-FEATURE", "O", "B-FEATURE", "I-FEATURE", "O", "B-FEATURE", "I-FEATURE"],
+          "TABLE": ["O", "O", "O", "O", "O", "B-TABLE", "I-TABLE", "O", "B-TABLE", "I-TABLE", "O", "B-TABLE", "I-TABLE"]
+        }
+      },
+      {
+        "id": 182,
+        "tokens": ["Plot", "a", "bar", "chart", "of", "voltage", "in", "mission", "1", "for", "the", "last", "9", "months"],
+        "BIO_tags": {
+          "ACTION": ["B-ACTION", "O", "B-ACTION", "O", "O", "B-FEATURE", "O", "B-FEATURE", "I-FEATURE", "O", "O", "O", "O", "O", "O"],
+          "TABLE": ["O", "O", "O", "O", "O", "B-TABLE", "O", "B-TABLE", "I-TABLE", "O", "O", "O", "O", "O", "O"]
+        }
+      },
+      {
+        "id": 183,
+        "tokens": ["Create", "a", "scatter", "plot", "showing", "GPS", "latitude", "in", "mission", "3", "over", "the", "last", "6", "months"],
+        "BIO_tags": {
+          "ACTION": ["B-ACTION", "O", "B-ACTION", "O", "O", "B-FEATURE", "I-FEATURE", "O", "B-FEATURE", "I-FEATURE", "O", "O", "O", "O", "O"],
+          "TABLE": ["O", "O", "O", "O", "O", "B-TABLE", "I-TABLE", "O", "B-TABLE", "I-TABLE", "O", "O", "O", "O", "O"]
+        }
+      },
+      {
+        "id": 184,
+        "tokens": ["Generate", "a", "line", "plot", "comparing", "pressure", "in", "mission", "1", "and", "thrust", "in", "mission", "2"],
+        "BIO_tags": {
+          "ACTION": ["B-ACTION", "O", "B-ACTION", "O", "O", "B-FEATURE", "O", "B-FEATURE", "I-FEATURE", "O", "B-FEATURE", "O", "B-FEATURE", "I-FEATURE"],
+          "TABLE": ["O", "O", "O", "O", "O", "B-TABLE", "O", "B-TABLE", "I-TABLE", "O", "B-TABLE", "O", "B-TABLE", "I-TABLE"]
+        }
+      },
+      {
+        "id": 185,
+        "tokens": ["Plot", "a", "bar", "chart", "showing", "fuel", "levels", "in", "mission", "2", "over", "the", "past", "5", "months"],
+        "BIO_tags": {
+          "ACTION": ["B-ACTION", "O", "B-ACTION", "O", "O", "B-FEATURE", "I-FEATURE", "O", "B-FEATURE", "I-FEATURE", "O", "O", "O", "O", "O"],
+          "TABLE": ["O", "O", "O", "O", "O", "B-TABLE", "I-TABLE", "O", "B-TABLE", "I-TABLE", "O", "O", "O", "O", "O"]
+        }
+      },
+      {
+        "id": 186,
+        "tokens": ["Create", "a", "line", "graph", "depicting", "GPS", "longitude", "in", "mission", "1", "over", "the", "last", "7", "months"],
+        "BIO_tags": {
+          "ACTION": ["B-ACTION", "O", "B-ACTION", "O", "O", "B-FEATURE", "I-FEATURE", "O", "B-FEATURE", "I-FEATURE", "O", "O", "O", "O", "O"],
+          "TABLE": ["O", "O", "O", "O", "O", "B-TABLE", "I-TABLE", "O", "B-TABLE", "I-TABLE", "O", "O", "O", "O", "O"]
+        }
+      },
+      {
+        "id": 187,
+        "tokens": ["Generate", "a", "scatter", "plot", "depicting", "gyroscope", "Z", "in", "mission", "2", "over", "the", "past", "6", "months"],
+        "BIO_tags": {
+          "ACTION": ["B-ACTION", "O", "B-ACTION", "O", "B-FEATURE", "I-FEATURE", "O", "B-FEATURE", "I-FEATURE", "O", "O", "O", "O", "O", "O"],
+          "TABLE": ["O", "O", "O", "O", "B-TABLE", "I-TABLE", "O", "B-TABLE", "I-TABLE", "O", "O", "O", "O", "O", "O"]
+        }
+      },
+      {
+        "id": 188,
+        "tokens": ["Plot", "a", "line", "graph", "showing", "accelerometer", "Y", "in", "mission", "3", "over", "the", "last", "5", "months"],
+        "BIO_tags": {
+          "ACTION": ["B-ACTION", "O", "B-ACTION", "O", "B-FEATURE", "I-FEATURE", "O", "B-FEATURE", "I-FEATURE", "O", "O", "O", "O", "O", "O"],
+          "TABLE": ["O", "O", "O", "O", "B-TABLE", "I-TABLE", "O", "B-TABLE", "I-TABLE", "O", "O", "O", "O", "O", "O"]
+        }
+      },
+      {
+        "id": 189,
+        "tokens": ["Generate", "a", "bar", "chart", "of", "voltage", "in", "mission", "2", "for", "the", "last", "9", "months"],
+        "BIO_tags": {
+          "ACTION": ["B-ACTION", "O", "B-ACTION", "O", "O", "B-FEATURE", "O", "B-FEATURE", "I-FEATURE", "O", "O", "O", "O", "O", "O"],
+          "TABLE": ["O", "O", "O", "O", "O", "B-TABLE", "O", "B-TABLE", "I-TABLE", "O", "O", "O", "O", "O", "O"]
+        }
+      },
+      {
+        "id": 190,
+        "tokens": ["Plot", "a", "line", "chart", "comparing", "thrust", "in", "mission", "1", "and", "mission", "3"],
+        "BIO_tags": {
+          "ACTION": ["B-ACTION", "O", "B-ACTION", "O", "O", "B-FEATURE", "O", "B-FEATURE", "I-FEATURE", "O", "B-FEATURE", "I-FEATURE"],
+          "TABLE": ["O", "O", "O", "O", "O", "B-TABLE", "O", "B-TABLE", "I-TABLE", "O", "B-TABLE", "I-TABLE"]
+        }
+      },
+      {
+        "id": 191,
+        "tokens": ["Generate", "a", "line", "plot", "depicting", "temperature", "in", "mission", "2", "over", "the", "last", "8", "months"],
+        "BIO_tags": {
+          "ACTION": ["B-ACTION", "O", "B-ACTION", "O", "B-FEATURE", "O", "B-FEATURE", "I-FEATURE", "O", "O", "O", "O", "O", "O", "O"],
+          "TABLE": ["O", "O", "O", "O", "B-TABLE", "O", "B-TABLE", "I-TABLE", "O", "O", "O", "O", "O", "O", "O"]
+        }
+      },
+      {
+        "id": 192,
+        "tokens": ["Create", "a", "scatter", "plot", "showing", "GPS", "longitude", "in", "mission", "1", "over", "the", "last", "6", "months"],
+        "BIO_tags": {
+          "ACTION": ["B-ACTION", "O", "B-ACTION", "O", "O", "B-FEATURE", "I-FEATURE", "O", "B-FEATURE", "I-FEATURE", "O", "O", "O", "O", "O"],
+          "TABLE": ["O", "O", "O", "O", "O", "B-TABLE", "I-TABLE", "O", "B-TABLE", "I-TABLE", "O", "O", "O", "O", "O"]
+        }
+      },
+      {
+        "id": 193,
+        "tokens": ["Plot", "a", "bar", "chart", "showing", "fuel", "levels", "in", "mission", "3", "over", "the", "past", "5", "months"],
+        "BIO_tags": {
+          "ACTION": ["B-ACTION", "O", "B-ACTION", "O", "O", "B-FEATURE", "I-FEATURE", "O", "B-FEATURE", "I-FEATURE", "O", "O", "O", "O", "O"],
+          "TABLE": ["O", "O", "O", "O", "O", "B-TABLE", "I-TABLE", "O", "B-TABLE", "I-TABLE", "O", "O", "O", "O", "O"]
+        }
+      },
+      {
+        "id": 194,
+        "tokens": ["Generate", "a", "line", "graph", "comparing", "pressure", "in", "mission", "2", "and", "GPS", "latitude", "in", "mission", "1"],
+        "BIO_tags": {
+          "ACTION": ["B-ACTION", "O", "B-ACTION", "O", "O", "B-FEATURE", "O", "B-FEATURE", "I-FEATURE", "O", "B-FEATURE", "I-FEATURE", "O", "B-FEATURE", "I-FEATURE"],
+          "TABLE": ["O", "O", "O", "O", "O", "B-TABLE", "O", "B-TABLE", "I-TABLE", "O", "B-TABLE", "I-TABLE", "O", "B-TABLE", "I-TABLE"]
+        }
+      },
+      {
+        "id": 195,
+        "tokens": ["Plot", "a", "line", "graph", "depicting", "gyroscope", "X", "in", "mission", "3", "over", "the", "last", "7", "months"],
+        "BIO_tags": {
+          "ACTION": ["B-ACTION", "O", "B-ACTION", "O", "B-FEATURE", "I-FEATURE", "O", "B-FEATURE", "I-FEATURE", "O", "O", "O", "O", "O", "O"],
+          "TABLE": ["O", "O", "O", "O", "B-TABLE", "I-TABLE", "O", "B-TABLE", "I-TABLE", "O", "O", "O", "O", "O", "O"]
+        }
+      },
+      {
+        "id": 196,
+        "tokens": ["Generate", "a", "bar", "chart", "of", "fuel", "levels", "in", "mission", "1", "for", "the", "last", "6", "months"],
+        "BIO_tags": {
+          "ACTION": ["B-ACTION", "O", "B-ACTION", "O", "O", "B-FEATURE", "I-FEATURE", "O", "B-FEATURE", "I-FEATURE", "O", "O", "O", "O", "O"],
+          "TABLE": ["O", "O", "O", "O", "O", "B-TABLE", "I-TABLE", "O", "B-TABLE", "I-TABLE", "O", "O", "O", "O", "O"]
+        }
+      },
+      {
+        "id": 197,
+        "tokens": ["Plot", "a", "line", "graph", "comparing", "temperature", "in", "mission", "2", "and", "GPS", "longitude", "in", "mission", "1"],
+        "BIO_tags": {
+          "ACTION": ["B-ACTION", "O", "B-ACTION", "O", "O", "B-FEATURE", "O", "B-FEATURE", "I-FEATURE", "O", "B-FEATURE", "I-FEATURE", "O", "B-FEATURE", "I-FEATURE"],
+          "TABLE": ["O", "O", "O", "O", "O", "B-TABLE", "O", "B-TABLE", "I-TABLE", "O", "B-TABLE", "I-TABLE", "O", "B-TABLE", "I-TABLE"]
+        }
+      },
+      {
+        "id": 198,
+        "tokens": ["Create", "a", "scatter", "plot", "depicting", "gyroscope", "X", "in", "mission", "3", "over", "the", "last", "8", "months"],
+        "BIO_tags": {
+          "ACTION": ["B-ACTION", "O", "B-ACTION", "O", "B-FEATURE", "I-FEATURE", "O", "B-FEATURE", "I-FEATURE", "O", "O", "O", "O", "O", "O"],
+          "TABLE": ["O", "O", "O", "O", "B-TABLE", "I-TABLE", "O", "B-TABLE", "I-TABLE", "O", "O", "O", "O", "O", "O"]
+        }
+      },
+      {
+        "id": 199,
+        "tokens": ["Plot", "a", "line", "chart", "showing", "pressure", "in", "mission", "1", "over", "the", "last", "5", "months"],
+        "BIO_tags": {
+          "ACTION": ["B-ACTION", "O", "B-ACTION", "O", "O", "B-FEATURE", "O", "B-FEATURE", "I-FEATURE", "O", "O", "O", "O", "O", "O"],
+          "TABLE": ["O", "O", "O", "O", "O", "B-TABLE", "O", "B-TABLE", "I-TABLE", "O", "O", "O", "O", "O", "O"]
+        }
+      },
+      {
+        "id": 200,
+        "tokens": ["Generate", "a", "line", "plot", "comparing", "accelerometer", "Z", "in", "mission", "2", "and", "thrust", "in", "mission", "3"],
+        "BIO_tags": {
+          "ACTION": ["B-ACTION", "O", "B-ACTION", "O", "O", "B-FEATURE", "I-FEATURE", "O", "B-FEATURE", "I-FEATURE", "O", "B-FEATURE", "O", "B-FEATURE", "I-FEATURE"],
+          "TABLE": ["O", "O", "O", "O", "O", "B-TABLE", "I-TABLE", "O", "B-TABLE", "I-TABLE", "O", "B-TABLE", "O", "B-TABLE", "I-TABLE"]
+        }
+      }
 ]
